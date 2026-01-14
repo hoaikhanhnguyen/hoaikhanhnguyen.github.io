@@ -1,0 +1,33 @@
+# Site settings
+title: "Capstone Project Journey"
+description: "An 8-week journey to obtain 4 certifications - Documenting my learning, challenges, and achievements"
+author: "Hoai Khanh Nguyen"
+email: ""
+baseurl: ""
+url: "https://hoaikhanhnguyen.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Hoai Khanh Nguyen"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
