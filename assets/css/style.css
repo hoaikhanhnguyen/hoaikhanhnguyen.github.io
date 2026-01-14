@@ -355,6 +355,61 @@ body {
   margin: 0;
 }
 
+/* About Page Styles */
+.about-page {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-page h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.about-page section {
+  margin-bottom: 2.5rem;
+}
+
+.about-page h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-page p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-page ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-page ul li {
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.about-page ul li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.call-to-action {
+  background-color: var(--bg-light);
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--secondary-color);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero h1 {
